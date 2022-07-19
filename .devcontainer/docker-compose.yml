@@ -4,4 +4,4 @@ services:
     container_name: php
     tty: true
     volumes:
-      - ./:/var/www/html
+      - ../:/var/www/html
