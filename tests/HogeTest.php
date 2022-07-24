@@ -1,8 +1,9 @@
 <?php
-require_once(dirname(__FILE__)."/../src/Hoge.php");
+
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use src\Hoge;
+use App\Hoge;
 
 class HogeTest extends TestCase
 {
