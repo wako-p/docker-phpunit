@@ -5,3 +5,4 @@ services:
     tty: true
     volumes:
       - ../:/var/www/html
+      - ../php.ini:/usr/local/etc/php/php.ini
