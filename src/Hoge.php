@@ -9,3 +9,6 @@ class Hoge
         return "hello";
     }
 }
+
+$hoge = new Hoge();
+$result = $hoge->hello();
