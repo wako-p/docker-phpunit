@@ -14,6 +14,6 @@ class HogeTest extends TestCase
         $actual = $hoge->hello();
 
         // then:
-        $this->assertSame("hello", $actual);
+        $this->assertSame($actual, "hello");
     }
 }
